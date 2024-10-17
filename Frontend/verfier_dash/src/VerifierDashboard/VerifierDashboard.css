@@ -1,0 +1,3006 @@
+.verifier-dashboard,
+.verifier-dashboard * {
+  box-sizing: border-box;
+}
+.verifier-dashboard {
+  background: #dfdfdf;
+  height: 3000px;
+  position: relative;
+}
+.verifier-dashboard .rectangle-3 {
+  background: #ffffff;
+  width: 348px;
+  height: 128px;
+  position: absolute;
+  left: 1054px;
+  top: 169px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.verifier-dashboard .rectangle-9 {
+  background: #0a512f;
+  width: 107px;
+  height: 128px;
+  position: absolute;
+  left: 1054px;
+  top: 169px;
+}
+.verifier-dashboard .rectangle-2 {
+  background: #ffffff;
+  width: 348px;
+  height: 128px;
+  position: absolute;
+  left: 661px;
+  top: 169px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.verifier-dashboard .rectangle-12 {
+  background: #ffffff;
+  width: 348px;
+  height: 128px;
+  position: absolute;
+  left: 661px;
+  top: 328px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.verifier-dashboard .rectangle-10 {
+  background: #ffffff;
+  width: 348px;
+  height: 128px;
+  position: absolute;
+  left: 1054px;
+  top: 330px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.verifier-dashboard .rectangle-1 {
+  background: #ffffff;
+  width: 348px;
+  height: 128px;
+  position: absolute;
+  left: 265px;
+  top: 169px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.verifier-dashboard .loans {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 26px;
+  font-weight: 500;
+  position: absolute;
+  left: 393px;
+  top: 255px;
+  width: 128px;
+  height: 28px;
+}
+.verifier-dashboard .rectangle-15 {
+  background: #ffffff;
+  width: 348px;
+  height: 128px;
+  position: absolute;
+  left: 265px;
+  top: 328px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.verifier-dashboard .savings {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  position: absolute;
+  left: 398px;
+  top: 413px;
+  width: 180px;
+  height: 26px;
+}
+.verifier-dashboard .borrowers {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  position: absolute;
+  left: 794px;
+  top: 254px;
+  width: 200px;
+  height: 26px;
+}
+.verifier-dashboard .repaid-loans {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  position: absolute;
+  left: 791px;
+  top: 413px;
+  width: 200px;
+  height: 26px;
+}
+.verifier-dashboard .cash-disbursed {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  position: absolute;
+  left: 1184px;
+  top: 252px;
+  width: 200px;
+  height: 25px;
+}
+.verifier-dashboard .cash-received {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  position: absolute;
+  left: 1177px;
+  top: 412px;
+  width: 200px;
+  height: 24px;
+}
+.verifier-dashboard ._50 {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  position: absolute;
+  left: 401px;
+  top: 194px;
+  width: 63px;
+  height: 52px;
+}
+.verifier-dashboard ._450-000 {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  position: absolute;
+  left: 401px;
+  top: 358px;
+  width: 200px;
+  height: 41px;
+}
+.verifier-dashboard ._100 {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  position: absolute;
+  left: 789px;
+  top: 193px;
+  width: 102px;
+  height: 52px;
+}
+.verifier-dashboard ._30 {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  position: absolute;
+  left: 789px;
+  top: 351px;
+  width: 64px;
+  height: 53px;
+}
+.verifier-dashboard ._550-000 {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  position: absolute;
+  left: 1183px;
+  top: 193px;
+  width: 208px;
+  height: 43px;
+}
+.verifier-dashboard ._1-000-000 {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  position: absolute;
+  left: 1175px;
+  top: 354px;
+  width: 208px;
+  height: 43px;
+}
+.verifier-dashboard .rectangle-7 {
+  background: #0a512f;
+  width: 108px;
+  height: 128px;
+  position: absolute;
+  left: calc(50% - 455px);
+  top: calc(50% - 1330px);
+}
+.verifier-dashboard .vector {
+  width: 3.82%;
+  height: 1.28%;
+  position: absolute;
+  right: 75.97%;
+  left: 20.21%;
+  bottom: 91.63%;
+  top: 7.1%;
+  overflow: visible;
+}
+.verifier-dashboard .rectangle-16 {
+  background: #0a512f;
+  width: 108px;
+  height: 128px;
+  position: absolute;
+  left: calc(50% - 454px);
+  top: calc(50% - 1171px);
+}
+.verifier-dashboard .rectangle-8 {
+  background: #0a512f;
+  width: 107px;
+  height: 128px;
+  position: absolute;
+  left: 661px;
+  top: 169px;
+}
+.verifier-dashboard .rectangle-17 {
+  background: #0a512f;
+  width: 107px;
+  height: 128px;
+  position: absolute;
+  left: 661px;
+  top: 328px;
+}
+.verifier-dashboard .rectangle-11 {
+  background: #0a512f;
+  width: 108px;
+  height: 128px;
+  position: absolute;
+  left: 1054px;
+  top: 330px;
+}
+.verifier-dashboard .cash-multiple {
+  width: 61px;
+  height: 62px;
+  position: absolute;
+  left: 1078px;
+  top: 196px;
+  overflow: visible;
+}
+.verifier-dashboard .vector2 {
+  width: 3.4%;
+  height: 1.3%;
+  position: absolute;
+  right: 48.89%;
+  left: 47.71%;
+  bottom: 91.57%;
+  top: 7.13%;
+  overflow: visible;
+}
+.verifier-dashboard .vector3 {
+  width: 3.68%;
+  height: 1.53%;
+  position: absolute;
+  right: 76.11%;
+  left: 20.21%;
+  bottom: 86.27%;
+  top: 12.2%;
+  overflow: visible;
+}
+.verifier-dashboard .tabler-currency-naira {
+  width: 62px;
+  height: 62px;
+  position: absolute;
+  left: 1072px;
+  top: 363px;
+  box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.4);
+  overflow: hidden;
+}
+.verifier-dashboard .group {
+  width: 58.33%;
+  height: 50%;
+  position: absolute;
+  right: 20.83%;
+  left: 20.83%;
+  bottom: 25%;
+  top: 25%;
+  overflow: visible;
+}
+.verifier-dashboard .sidebar {
+  background: #132e1a;
+  width: 231px;
+  height: 2932px;
+  position: absolute;
+  left: 0px;
+  top: 68px;
+  box-shadow: 4.25px 4.25px 4.25px 0px rgba(0, 0, 0, 0.25);
+}
+.verifier-dashboard .rectangle-21 {
+  background: rgba(10, 81, 47, 0.42);
+  width: 231px;
+  height: 43px;
+  position: absolute;
+  left: 0px;
+  top: 185.5px;
+  box-shadow: 0px 3.97px 3.97px 0px rgba(0, 0, 0, 0.25);
+}
+.verifier-dashboard .rectangle-22 {
+  background: rgba(10, 81, 47, 0.42);
+  width: 230px;
+  height: 44.21px;
+  position: absolute;
+  left: 0.01px;
+  top: 229.97px;
+}
+.verifier-dashboard .rectangle-23 {
+  background: rgba(10, 81, 47, 0.91);
+  width: 230px;
+  height: 44.21px;
+  position: absolute;
+  left: 0.01px;
+  top: 275.18px;
+  box-shadow: 0px 4.02px 4.02px 0px rgba(0, 0, 0, 0.25);
+}
+.verifier-dashboard .rectangle-24 {
+  background: rgba(10, 81, 47, 0.42);
+  width: 230px;
+  height: 44.21px;
+  position: absolute;
+  left: 0.01px;
+  top: 320.4px;
+  box-shadow: 0px 4.02px 4.02px 0px rgba(0, 0, 0, 0.25);
+}
+.verifier-dashboard .rectangle-25 {
+  background: rgba(10, 81, 47, 0.42);
+  width: 230px;
+  height: 44.21px;
+  position: absolute;
+  left: 0.01px;
+  top: 365.62px;
+  box-shadow: 0px 4.02px 4.02px 0px rgba(0, 0, 0, 0.25);
+}
+.verifier-dashboard .rectangle-26 {
+  background: rgba(10, 81, 47, 0.42);
+  width: 230px;
+  height: 44.21px;
+  position: absolute;
+  left: 0.01px;
+  top: 410.84px;
+  box-shadow: 0px 4.02px 4.02px 0px rgba(0, 0, 0, 0.25);
+}
+.verifier-dashboard .rectangle-27 {
+  background: rgba(10, 81, 47, 0.42);
+  width: 230px;
+  height: 44.21px;
+  position: absolute;
+  left: 0.01px;
+  top: 456.06px;
+  box-shadow: 0px 4.02px 4.02px 0px rgba(0, 0, 0, 0.25);
+}
+.verifier-dashboard .rectangle-28 {
+  background: rgba(10, 81, 47, 0.42);
+  width: 230px;
+  height: 44.21px;
+  position: absolute;
+  left: 0.01px;
+  top: 501.28px;
+  box-shadow: 0px 4.02px 4.02px 0px rgba(0, 0, 0, 0.25);
+}
+.verifier-dashboard .rectangle-29 {
+  background: rgba(10, 81, 47, 0.42);
+  width: 230px;
+  height: 44.21px;
+  position: absolute;
+  left: 0.01px;
+  top: 546.5px;
+  box-shadow: 0px 4.02px 4.02px 0px rgba(0, 0, 0, 0.25);
+}
+.verifier-dashboard .rectangle-30 {
+  background: rgba(10, 81, 47, 0.42);
+  width: 230px;
+  height: 44.21px;
+  position: absolute;
+  left: 0.01px;
+  top: 591.72px;
+  box-shadow: 0px 4.02px 4.02px 0px rgba(0, 0, 0, 0.25);
+}
+.verifier-dashboard .rectangle-33 {
+  background: rgba(10, 81, 47, 0.42);
+  width: 230px;
+  height: 44.21px;
+  position: absolute;
+  left: 0.01px;
+  top: 637.37px;
+  box-shadow: 0px 4.02px 4.02px 0px rgba(0, 0, 0, 0.25);
+}
+.verifier-dashboard .rectangle-34 {
+  background: rgba(10, 81, 47, 0.42);
+  width: 230px;
+  height: 44.21px;
+  position: absolute;
+  left: 0.01px;
+  top: 682.59px;
+  box-shadow: 0px 4.02px 4.02px 0px rgba(0, 0, 0, 0.25);
+}
+.verifier-dashboard .rectangle-35 {
+  background: rgba(10, 81, 47, 0.42);
+  width: 230px;
+  height: 44.21px;
+  position: absolute;
+  left: 0.01px;
+  top: 727.81px;
+  box-shadow: 0px 4.02px 4.02px 0px rgba(0, 0, 0, 0.25);
+}
+.verifier-dashboard .rectangle-36 {
+  background: rgba(10, 81, 47, 0.42);
+  width: 230px;
+  height: 44.21px;
+  position: absolute;
+  left: 0.01px;
+  top: 773.03px;
+  box-shadow: 0px 4.02px 4.02px 0px rgba(0, 0, 0, 0.25);
+}
+.verifier-dashboard .rectangle-37 {
+  background: rgba(10, 81, 47, 0.42);
+  width: 230px;
+  height: 44.21px;
+  position: absolute;
+  left: 0.01px;
+  top: 818.25px;
+  box-shadow: 0px 4.02px 4.02px 0px rgba(0, 0, 0, 0.25);
+}
+.verifier-dashboard .rectangle-38 {
+  background: rgba(10, 81, 47, 0.42);
+  width: 230px;
+  height: 44.21px;
+  position: absolute;
+  left: 0.01px;
+  top: 863.47px;
+  box-shadow: 0px 4.02px 4.02px 0px rgba(0, 0, 0, 0.25);
+}
+.verifier-dashboard .rectangle-20 {
+  background: rgba(196, 196, 196, 0.12);
+  width: 230px;
+  height: 101.49px;
+  position: absolute;
+  left: 0.01px;
+  top: 67.18px;
+  box-shadow: 0px 4.02px 4.02px 0px rgba(0, 0, 0, 0.25);
+}
+.verifier-dashboard .dashboard {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  position: absolute;
+  left: 59px;
+  top: 197.5px;
+  width: 90px;
+  height: 24px;
+}
+.verifier-dashboard .borrowers2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  position: absolute;
+  left: 59px;
+  top: 244.5px;
+  width: 90px;
+  height: 24px;
+}
+.verifier-dashboard .loans2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  position: absolute;
+  left: 59px;
+  top: 289.5px;
+  width: 90px;
+  height: 24px;
+}
+.verifier-dashboard .repayments {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  position: absolute;
+  left: 59px;
+  top: 333.77px;
+  width: 99px;
+  height: 35.47px;
+}
+.verifier-dashboard .loan-parameters {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 661px);
+  top: calc(50% - 1120.63px);
+  width: 121px;
+  height: 16px;
+}
+.verifier-dashboard .accounting {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  position: absolute;
+  left: 59px;
+  top: 424.5px;
+  width: 90px;
+  height: 24px;
+}
+.verifier-dashboard .reports {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  position: absolute;
+  left: 59px;
+  top: 469.5px;
+  width: 90px;
+  height: 24px;
+}
+.verifier-dashboard .collateral {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  position: absolute;
+  left: 59px;
+  top: 514.5px;
+  width: 90px;
+  height: 24px;
+}
+.verifier-dashboard .access-configuration {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  position: absolute;
+  left: 59px;
+  top: 557.5px;
+  width: 151px;
+  height: 24px;
+}
+.verifier-dashboard .savings2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  position: absolute;
+  left: 59px;
+  top: 603.5px;
+  width: 150px;
+  height: 24px;
+}
+.verifier-dashboard .expenses {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  position: absolute;
+  left: 59px;
+  top: 651.5px;
+  width: 90px;
+  height: 24px;
+}
+.verifier-dashboard .e-signarure {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  position: absolute;
+  left: 59px;
+  top: 694.5px;
+  width: 90px;
+  height: 24px;
+}
+.verifier-dashboard .investor-accounts {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  position: absolute;
+  left: 59px;
+  top: 741.5px;
+  width: 150px;
+  height: 24px;
+}
+.verifier-dashboard .calendar {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  position: absolute;
+  left: 59px;
+  top: 785.5px;
+  width: 90px;
+  height: 24px;
+}
+.verifier-dashboard .settings {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  position: absolute;
+  left: 59px;
+  top: 830.5px;
+  width: 84px;
+  height: 23px;
+}
+.verifier-dashboard .sign-out {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  position: absolute;
+  left: 59px;
+  top: 873.5px;
+  width: 90px;
+  height: 24px;
+}
+.verifier-dashboard .account-circle {
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  left: 21px;
+  top: 99.5px;
+  overflow: visible;
+}
+.verifier-dashboard .john-okoh {
+  color: #adcf1a;
+  text-align: left;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 77px;
+  top: 111.5px;
+  width: 103px;
+}
+.verifier-dashboard .vector4 {
+  width: 1.74%;
+  height: 0.67%;
+  position: absolute;
+  right: 96.88%;
+  left: 1.39%;
+  bottom: 91.27%;
+  top: 8.07%;
+  overflow: visible;
+}
+.verifier-dashboard .dashicons-dashboard {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 21px;
+  top: 195.5px;
+  overflow: visible;
+}
+.verifier-dashboard .vector5 {
+  width: 1.74%;
+  height: 0.67%;
+  position: absolute;
+  right: 96.67%;
+  left: 1.6%;
+  bottom: 73.16%;
+  top: 26.17%;
+  overflow: visible;
+}
+.verifier-dashboard .vector6 {
+  width: 1.74%;
+  height: 0.63%;
+  position: absolute;
+  right: 96.88%;
+  left: 1.39%;
+  bottom: 83.76%;
+  top: 15.61%;
+  overflow: visible;
+}
+.verifier-dashboard .vector7 {
+  width: 1.74%;
+  height: 0.5%;
+  position: absolute;
+  right: 96.88%;
+  left: 1.39%;
+  bottom: 89.8%;
+  top: 9.7%;
+  overflow: visible;
+}
+.verifier-dashboard .vector8 {
+  width: 1.74%;
+  height: 0.67%;
+  position: absolute;
+  right: 96.88%;
+  left: 1.39%;
+  bottom: 86.79%;
+  top: 12.54%;
+  overflow: visible;
+}
+.verifier-dashboard .vector9 {
+  width: 1.74%;
+  height: 0.74%;
+  position: absolute;
+  right: 96.88%;
+  left: 1.39%;
+  bottom: 79.2%;
+  top: 20.06%;
+  overflow: visible;
+}
+.verifier-dashboard .vector10 {
+  width: 1.74%;
+  height: 0.5%;
+  position: absolute;
+  right: 96.6%;
+  left: 1.67%;
+  bottom: 76.3%;
+  top: 23.2%;
+  overflow: visible;
+}
+.verifier-dashboard .vector11 {
+  width: 1.74%;
+  height: 0.67%;
+  position: absolute;
+  right: 96.88%;
+  left: 1.39%;
+  bottom: 80.68%;
+  top: 18.65%;
+  overflow: visible;
+}
+.verifier-dashboard .vector12 {
+  width: 1.74%;
+  height: 0.73%;
+  position: absolute;
+  right: 96.74%;
+  left: 1.53%;
+  bottom: 74.6%;
+  top: 24.67%;
+  overflow: visible;
+}
+.verifier-dashboard .vector13 {
+  width: 1.74%;
+  height: 0.74%;
+  position: absolute;
+  right: 96.88%;
+  left: 1.39%;
+  bottom: 77.59%;
+  top: 21.66%;
+  overflow: visible;
+}
+.verifier-dashboard .vector14 {
+  width: 1.3%;
+  height: 0.83%;
+  position: absolute;
+  right: 96.96%;
+  left: 1.74%;
+  bottom: 82.15%;
+  top: 17.02%;
+  overflow: visible;
+}
+.verifier-dashboard .vector15 {
+  width: 1.74%;
+  height: 0.65%;
+  position: absolute;
+  right: 96.88%;
+  left: 1.39%;
+  bottom: 85.24%;
+  top: 14.11%;
+  overflow: visible;
+}
+.verifier-dashboard .vector16 {
+  width: 1.71%;
+  height: 0.63%;
+  position: absolute;
+  right: 96.55%;
+  left: 1.74%;
+  bottom: 70.26%;
+  top: 29.12%;
+  overflow: visible;
+}
+.verifier-dashboard .vector17 {
+  width: 1.74%;
+  height: 0.66%;
+  position: absolute;
+  right: 96.81%;
+  left: 1.46%;
+  bottom: 71.65%;
+  top: 27.68%;
+  overflow: visible;
+}
+.verifier-dashboard .header {
+  background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(234, 234, 233, 1) 53.41028571128845%
+    ),
+    linear-gradient(to left, #ffffff, #ffffff);
+  width: 1440px;
+  height: 70px;
+  position: absolute;
+  left: 0px;
+  top: 0.5px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.verifier-dashboard .credit-app {
+  color: #0a512f;
+  text-align: left;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 28.545454025268555px;
+  font-weight: 700;
+  position: absolute;
+  left: 21px;
+  top: 23.5px;
+}
+.verifier-dashboard .account-circle2 {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 1283px;
+  top: 16.5px;
+  overflow: visible;
+}
+.verifier-dashboard .verifier {
+  color: #0a512f;
+  text-align: left;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  position: absolute;
+  left: 1321px;
+  top: 20.5px;
+}
+.verifier-dashboard .align-justify {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 230px;
+  top: 23.5px;
+  overflow: visible;
+}
+.verifier-dashboard .vector18 {
+  width: 0.97%;
+  height: 0.3%;
+  position: absolute;
+  right: 2.22%;
+  left: 96.81%;
+  bottom: 98.78%;
+  top: 0.92%;
+  overflow: visible;
+}
+.verifier-dashboard .vector19 {
+  width: 2.08%;
+  height: 0.94%;
+  position: absolute;
+  right: 12.04%;
+  left: 85.89%;
+  bottom: 98.48%;
+  top: 0.58%;
+  overflow: visible;
+}
+.verifier-dashboard .vector20 {
+  width: 1.93%;
+  height: 0.94%;
+  position: absolute;
+  right: 15.88%;
+  left: 82.19%;
+  bottom: 98.48%;
+  top: 0.58%;
+  overflow: visible;
+}
+.verifier-dashboard ._4 {
+  color: #a61b13;
+  text-align: left;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  position: absolute;
+  left: 1200px;
+  top: 6.5px;
+}
+.verifier-dashboard .dashboard-loans {
+  color: #0a512f;
+  text-align: left;
+  position: absolute;
+  left: calc(50% - 455px);
+  top: calc(50% - 1380.91px);
+  width: 200px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.dashboard-loans-span {
+  color: #0a512f;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+.dashboard-loans-span2 {
+  color: #0a512f;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+.verifier-dashboard .vector21 {
+  width: 1.74%;
+  height: 0.67%;
+  position: absolute;
+  right: 96.87%;
+  left: 1.39%;
+  bottom: 88.2%;
+  top: 11.13%;
+  overflow: visible;
+}
+.verifier-dashboard .vector22 {
+  width: 2.99%;
+  height: 1.13%;
+  position: absolute;
+  right: 48.54%;
+  left: 48.47%;
+  bottom: 86.47%;
+  top: 12.4%;
+  overflow: visible;
+}
+.verifier-dashboard .all-tickets {
+  height: 915px;
+  position: absolute;
+  right: 38px;
+  left: 265px;
+  top: 492px;
+  overflow: hidden;
+}
+.verifier-dashboard .cards-default {
+  position: absolute;
+  right: -12.05px;
+  left: -11.049142837524414px;
+  bottom: 0px;
+  top: -18.597625732421875px;
+}
+.verifier-dashboard .sheet {
+  background: var(--grayscale-white, #ffffff);
+  border-radius: 8.36px;
+  border-style: solid;
+  border-color: var(--grayscale-divider, #dfe0eb);
+  border-width: 1.04px;
+  position: absolute;
+  right: 14.05px;
+  left: 12.0491943359375px;
+  bottom: 0px;
+  top: 13.597625732421875px;
+}
+.verifier-dashboard .applied-loans {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 23.491365432739258px;
+  font-weight: 500;
+  position: absolute;
+  left: 29.59px;
+  top: 48.98px;
+  width: 204.27px;
+  height: 23.47px;
+}
+.verifier-dashboard .table-ticket-priority-high-hover {
+  background: #ffffff;
+  height: 92px;
+  position: absolute;
+  right: 1px;
+  left: 1px;
+  top: 502px;
+}
+.verifier-dashboard .sheet2 {
+  background: var(--accent-default, #3751ff);
+  opacity: 0.04;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  top: 0px;
+}
+.verifier-dashboard .icon-cursor-pointing-hand {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 405px;
+  top: calc(50% - 6px);
+}
+.verifier-dashboard .group2 {
+  width: 89.43%;
+  height: 95.43%;
+  position: absolute;
+  right: 4.32%;
+  left: 6.25%;
+  bottom: 2.39%;
+  top: 2.19%;
+  overflow: visible;
+}
+.verifier-dashboard .content {
+  position: absolute;
+  inset: 0;
+}
+.verifier-dashboard .icon-more-vertical {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 31px;
+  top: calc(50% - 12px);
+  overflow: visible;
+}
+.verifier-dashboard .time-label {
+  color: var(--grayscale-gray-light, #c5c7cd);
+  text-align: left;
+  font-family: var(--reg-12-01-px-font-family, "Mulish-Regular", sans-serif);
+  font-size: var(--reg-12-01-px-font-size, 12px);
+  line-height: var(--reg-12-01-px-line-height, 16px);
+  letter-spacing: var(--reg-12-01-px-letter-spacing, 0.1px);
+  font-weight: var(--reg-12-01-px-font-weight, 400);
+  position: absolute;
+  right: 221px;
+  top: calc(50% - -4px);
+  width: 140px;
+  height: 16px;
+}
+.verifier-dashboard .date-label {
+  color: var(--grayscale-black, #252733);
+  text-align: left;
+  font-family: var(
+    --semibold-14-02-px-font-family,
+    "Mulish-SemiBold",
+    sans-serif
+  );
+  font-size: var(--semibold-14-02-px-font-size, 14px);
+  line-height: var(--semibold-14-02-px-line-height, 20px);
+  letter-spacing: var(--semibold-14-02-px-letter-spacing, 0.2px);
+  font-weight: var(--semibold-14-02-px-font-weight, 600);
+  position: absolute;
+  right: 221px;
+  top: calc(50% - 20px);
+  width: 140px;
+}
+.verifier-dashboard .date-customer {
+  color: var(--grayscale-gray-light, #c5c7cd);
+  text-align: left;
+  font-family: var(--reg-12-01-px-font-family, "Mulish-Regular", sans-serif);
+  font-size: var(--reg-12-01-px-font-size, 12px);
+  line-height: var(--reg-12-01-px-line-height, 16px);
+  letter-spacing: var(--reg-12-01-px-letter-spacing, 0.1px);
+  font-weight: var(--reg-12-01-px-font-weight, 400);
+  position: absolute;
+  right: 401px;
+  top: calc(50% - -4px);
+  width: 208px;
+  height: 16px;
+}
+.verifier-dashboard .customer-name {
+  color: var(--grayscale-black, #252733);
+  text-align: left;
+  font-family: var(
+    --semibold-14-02-px-font-family,
+    "Mulish-SemiBold",
+    sans-serif
+  );
+  font-size: var(--semibold-14-02-px-font-size, 14px);
+  line-height: var(--semibold-14-02-px-line-height, 20px);
+  letter-spacing: var(--semibold-14-02-px-letter-spacing, 0.2px);
+  font-weight: var(--semibold-14-02-px-font-weight, 600);
+  position: absolute;
+  right: 401px;
+  top: calc(50% - 20px);
+  width: 208px;
+}
+.verifier-dashboard .ticket-information {
+  color: var(--grayscale-gray-light, #c5c7cd);
+  text-align: left;
+  font-family: var(--reg-12-01-px-font-family, "Mulish-Regular", sans-serif);
+  font-size: var(--reg-12-01-px-font-size, 12px);
+  line-height: var(--reg-12-01-px-line-height, 16px);
+  letter-spacing: var(--reg-12-01-px-letter-spacing, 0.1px);
+  font-weight: var(--reg-12-01-px-font-weight, 400);
+  position: absolute;
+  right: 649px;
+  left: 99px;
+  top: calc(50% - -4px);
+  height: 16px;
+}
+.verifier-dashboard .ticket-name {
+  color: var(--grayscale-black, #252733);
+  text-align: left;
+  font-family: var(
+    --semibold-14-02-px-font-family,
+    "Mulish-SemiBold",
+    sans-serif
+  );
+  font-size: var(--semibold-14-02-px-font-size, 14px);
+  line-height: var(--semibold-14-02-px-line-height, 20px);
+  letter-spacing: var(--semibold-14-02-px-letter-spacing, 0.2px);
+  font-weight: var(--semibold-14-02-px-font-weight, 600);
+  position: absolute;
+  right: 649px;
+  left: 99px;
+  top: calc(50% - 20px);
+}
+.verifier-dashboard .avatar-man-6 {
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  left: 31px;
+  top: 24px;
+  overflow: visible;
+}
+.verifier-dashboard .divider-line-horizontal {
+  width: 1120px;
+  height: 0px;
+  position: absolute;
+  left: 0px;
+  top: 92px;
+  overflow: visible;
+}
+.verifier-dashboard .divider-line-horizontal2 {
+  width: 1120px;
+  height: 0px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.verifier-dashboard .filter {
+  position: absolute;
+  inset: 0;
+}
+.verifier-dashboard .filter2 {
+  color: var(--grayscale-gray-dark, #4b506d);
+  text-align: left;
+  font-family: var(
+    --semibold-14-02-px-font-family,
+    "Mulish-SemiBold",
+    sans-serif
+  );
+  font-size: var(--semibold-14-02-px-font-size, 14px);
+  line-height: var(--semibold-14-02-px-line-height, 20px);
+  letter-spacing: var(--semibold-14-02-px-letter-spacing, 0.2px);
+  font-weight: var(--semibold-14-02-px-font-weight, 600);
+  position: absolute;
+  right: 32px;
+  top: 37px;
+}
+.verifier-dashboard .icon-filter {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  right: 74px;
+  top: 38px;
+  overflow: visible;
+}
+.verifier-dashboard .sort {
+  position: absolute;
+  inset: 0;
+}
+.verifier-dashboard .sort2 {
+  color: var(--grayscale-gray-dark, #4b506d);
+  text-align: left;
+  font-family: var(
+    --semibold-14-02-px-font-family,
+    "Mulish-SemiBold",
+    sans-serif
+  );
+  font-size: var(--semibold-14-02-px-font-size, 14px);
+  line-height: var(--semibold-14-02-px-line-height, 20px);
+  letter-spacing: var(--semibold-14-02-px-letter-spacing, 0.2px);
+  font-weight: var(--semibold-14-02-px-font-weight, 600);
+  position: absolute;
+  right: 122px;
+  top: 37px;
+}
+.verifier-dashboard .icon-sort {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  right: 159px;
+  top: 38px;
+  overflow: visible;
+}
+.verifier-dashboard .table-bottom {
+  position: absolute;
+  inset: 0;
+}
+.verifier-dashboard .rows-per-page {
+  width: 139px;
+  height: 18px;
+  position: static;
+}
+.verifier-dashboard .rows-per-page2 {
+  color: var(--grayscale-gray, #9fa2b4);
+  text-align: left;
+  font-family: var(--reg-14-03-px-font-family, "Mulish-Regular", sans-serif);
+  font-size: var(--reg-14-03-px-font-size, 14px);
+  line-height: var(--reg-14-03-px-line-height, 20px);
+  letter-spacing: var(--reg-14-03-px-letter-spacing, 0.3px);
+  font-weight: var(--reg-14-03-px-font-weight, 400);
+  position: absolute;
+  right: 297px;
+  top: 819px;
+  width: 106px;
+  height: 18px;
+}
+.verifier-dashboard ._7 {
+  color: var(--grayscale-gray-dark, #4b506d);
+  text-align: right;
+  font-family: var(--reg-14-03-px-font-family, "Mulish-Regular", sans-serif);
+  font-size: var(--reg-14-03-px-font-size, 14px);
+  line-height: var(--reg-14-03-px-line-height, 20px);
+  letter-spacing: var(--reg-14-03-px-letter-spacing, 0.3px);
+  font-weight: var(--reg-14-03-px-font-weight, 400);
+  position: absolute;
+  right: 279px;
+  top: 819px;
+  width: 10px;
+  height: 18px;
+}
+.verifier-dashboard .icon-dropdown {
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  right: 264px;
+  top: 822px;
+  overflow: visible;
+}
+.verifier-dashboard .pagination {
+  width: 184px;
+  height: 24px;
+  position: static;
+}
+.verifier-dashboard ._1-7-of-1240 {
+  color: var(--grayscale-gray, #9fa2b4);
+  text-align: right;
+  font-family: var(--reg-14-03-px-font-family, "Mulish-Regular", sans-serif);
+  font-size: var(--reg-14-03-px-font-size, 14px);
+  line-height: var(--reg-14-03-px-line-height, 20px);
+  letter-spacing: var(--reg-14-03-px-letter-spacing, 0.3px);
+  font-weight: var(--reg-14-03-px-font-weight, 400);
+  position: absolute;
+  right: 116px;
+  top: 819px;
+  width: 100px;
+  height: 18px;
+}
+.verifier-dashboard .icon-arrow-left {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 68px;
+  top: 816px;
+  overflow: visible;
+}
+.verifier-dashboard .icon-arrow-right {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 32px;
+  top: 816px;
+  overflow: visible;
+}
+.verifier-dashboard .table-top {
+  height: 30px;
+  position: absolute;
+  right: 1px;
+  left: 1px;
+  top: 104px;
+}
+.verifier-dashboard .user-recent-activity {
+  color: var(--grayscale-gray, #9fa2b4);
+  text-align: left;
+  font-family: var(--bold-14-02-px-font-family, "Mulish-Bold", sans-serif);
+  font-size: var(--bold-14-02-px-font-size, 14px);
+  letter-spacing: var(--bold-14-02-px-letter-spacing, 0.2px);
+  font-weight: var(--bold-14-02-px-font-weight, 700);
+  position: absolute;
+  right: 649px;
+  left: 31px;
+  top: 0px;
+}
+.verifier-dashboard .customer-name2 {
+  color: var(--grayscale-gray, #9fa2b4);
+  text-align: left;
+  font-family: var(--bold-14-02-px-font-family, "Mulish-Bold", sans-serif);
+  font-size: var(--bold-14-02-px-font-size, 14px);
+  letter-spacing: var(--bold-14-02-px-letter-spacing, 0.2px);
+  font-weight: var(--bold-14-02-px-font-weight, 700);
+  position: absolute;
+  right: 401px;
+  top: 0px;
+  width: 208px;
+}
+.verifier-dashboard .action {
+  color: var(--grayscale-gray, #9fa2b4);
+  text-align: left;
+  font-family: var(--bold-14-02-px-font-family, "Mulish-Bold", sans-serif);
+  font-size: var(--bold-14-02-px-font-size, 14px);
+  letter-spacing: var(--bold-14-02-px-letter-spacing, 0.2px);
+  font-weight: var(--bold-14-02-px-font-weight, 700);
+  position: absolute;
+  right: 77px;
+  top: 0px;
+  width: 104px;
+}
+.verifier-dashboard .date {
+  color: var(--grayscale-gray, #9fa2b4);
+  text-align: left;
+  font-family: var(--bold-14-02-px-font-family, "Mulish-Bold", sans-serif);
+  font-size: var(--bold-14-02-px-font-size, 14px);
+  letter-spacing: var(--bold-14-02-px-letter-spacing, 0.2px);
+  font-weight: var(--bold-14-02-px-font-weight, 700);
+  position: absolute;
+  right: 221px;
+  top: 0px;
+  width: 140px;
+}
+.verifier-dashboard .divider-line-horizontal3 {
+  height: 0px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 30px;
+  overflow: visible;
+}
+.verifier-dashboard .table-ticket-priority-high {
+  height: 92px;
+  position: absolute;
+  right: 1px;
+  left: 1px;
+  top: 134px;
+}
+.verifier-dashboard .icon-more-vertical2 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 31px;
+  top: calc(50% - 12px);
+  overflow: visible;
+}
+.verifier-dashboard .chip-priority-high {
+  width: 66px;
+  height: 29.33px;
+  position: absolute;
+  right: 115px;
+  top: calc(50% - 14.67px);
+  overflow: hidden;
+}
+.verifier-dashboard .sheet3 {
+  background: #fec400;
+  border-radius: 122.22px;
+  width: 66px;
+  height: 29.33px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.verifier-dashboard .title {
+  color: var(--grayscale-white, #ffffff);
+  text-align: center;
+  font-family: "Mulish-Bold", sans-serif;
+  font-size: 9.333333969116211px;
+  letter-spacing: 0.53px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  right: 5px;
+  left: 5px;
+  top: calc(50% - 7.41px);
+  height: 14.58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.verifier-dashboard .chip-priority-high2 {
+  width: 66px;
+  height: 29.33px;
+  position: absolute;
+  right: 115px;
+  top: calc(50% - -537.33px);
+  overflow: hidden;
+}
+.verifier-dashboard .chip-priority-high3 {
+  width: 66px;
+  height: 29.33px;
+  position: absolute;
+  right: 115px;
+  top: calc(50% - -170.33px);
+  overflow: hidden;
+}
+.verifier-dashboard .chip-priority-high4 {
+  width: 78px;
+  height: 34.67px;
+  position: absolute;
+  right: 103px;
+  top: calc(50% - -258.67px);
+  overflow: hidden;
+}
+.verifier-dashboard .sheet4 {
+  background: #29cc97;
+  border-radius: 144.44px;
+  width: 78px;
+  height: 34.67px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.verifier-dashboard .title2 {
+  color: var(--grayscale-white, #ffffff);
+  text-align: center;
+  font-family: "Mulish-Bold", sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.62px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  right: 5.91px;
+  left: 5.909090995788574px;
+  top: calc(50% - 8.76px);
+  height: 17.23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.verifier-dashboard .chip-priority-high5 {
+  width: 66px;
+  height: 29.33px;
+  position: absolute;
+  right: 115px;
+  top: calc(50% - -77.33px);
+  overflow: hidden;
+}
+.verifier-dashboard .avatar-man-5 {
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  left: 31px;
+  top: calc(50% - 22px);
+  overflow: visible;
+}
+.verifier-dashboard .chip-priority-high6 {
+  width: 78px;
+  height: 34.67px;
+  position: absolute;
+  right: 103px;
+  top: calc(50% - -355.67px);
+  overflow: hidden;
+}
+.verifier-dashboard .chip-priority-high7 {
+  width: 78px;
+  height: 34.67px;
+  position: absolute;
+  right: 103px;
+  top: calc(50% - -443.67px);
+  overflow: hidden;
+}
+.verifier-dashboard .divider-line-horizontal4 {
+  height: 0px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  overflow: visible;
+}
+.verifier-dashboard .divider-line-horizontal5 {
+  height: 0px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.verifier-dashboard .table-ticket-priority-low {
+  height: 92px;
+  position: absolute;
+  right: 1px;
+  left: 1px;
+  top: 226px;
+}
+.verifier-dashboard .icon-more-vertical3 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 31px;
+  top: calc(50% - 12px);
+  overflow: visible;
+}
+.verifier-dashboard .avatar-woman-5 {
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  left: 31px;
+  top: calc(50% - 22px);
+  overflow: visible;
+}
+.verifier-dashboard .divider-line-horizontal6 {
+  height: 0px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  overflow: visible;
+}
+.verifier-dashboard .divider-line-horizontal7 {
+  height: 0px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.verifier-dashboard .table-ticket-priority-normal {
+  height: 92px;
+  position: absolute;
+  right: 1px;
+  left: 1px;
+  top: 410px;
+}
+.verifier-dashboard .icon-more-vertical4 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 31px;
+  top: calc(50% - 12px);
+  overflow: visible;
+}
+.verifier-dashboard .avatar-man-7 {
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  left: 31px;
+  top: calc(50% - 22px);
+  overflow: visible;
+}
+.verifier-dashboard .divider-line-horizontal8 {
+  height: 0px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  overflow: visible;
+}
+.verifier-dashboard .divider-line-horizontal9 {
+  height: 0px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.verifier-dashboard .table-ticket-priority-high2 {
+  height: 92px;
+  position: absolute;
+  right: 1px;
+  left: 1px;
+  top: 318px;
+}
+.verifier-dashboard .icon-more-vertical5 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 31px;
+  top: calc(50% - 12px);
+  overflow: visible;
+}
+.verifier-dashboard .avatar-woman-3 {
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  left: 31px;
+  top: calc(50% - 22px);
+  overflow: visible;
+}
+.verifier-dashboard .divider-line-horizontal10 {
+  height: 0px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  overflow: visible;
+}
+.verifier-dashboard .divider-line-horizontal11 {
+  height: 0px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.verifier-dashboard .table-ticket-priority-normal2 {
+  height: 92px;
+  position: absolute;
+  right: 1px;
+  left: 1px;
+  top: 594px;
+}
+.verifier-dashboard .icon-more-vertical6 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 31px;
+  top: calc(50% - 12px);
+  overflow: visible;
+}
+.verifier-dashboard .avatar-man-4 {
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  left: 31px;
+  top: calc(50% - 22px);
+  overflow: visible;
+}
+.verifier-dashboard .divider-line-horizontal12 {
+  height: 0px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  overflow: visible;
+}
+.verifier-dashboard .divider-line-horizontal13 {
+  height: 0px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.verifier-dashboard .table-ticket-priority-low2 {
+  height: 92px;
+  position: absolute;
+  right: 1px;
+  left: 1px;
+  top: 686px;
+}
+.verifier-dashboard .icon-more-vertical7 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 31px;
+  top: calc(50% - 12px);
+  overflow: visible;
+}
+.verifier-dashboard .avatar-woman-6 {
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  left: 31px;
+  top: calc(50% - 22px);
+  overflow: visible;
+}
+.verifier-dashboard .divider-line-horizontal14 {
+  height: 0px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  overflow: visible;
+}
+.verifier-dashboard .divider-line-horizontal15 {
+  height: 0px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.verifier-dashboard .rectangle-41 {
+  background: #ffffff;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #dfe0eb;
+  border-width: 1px;
+  width: 1134px;
+  height: 472px;
+  position: absolute;
+  left: 266px;
+  top: 1939px;
+}
+.verifier-dashboard .chart {
+  width: 1111px;
+  height: 400px;
+  position: absolute;
+  left: 226px;
+  top: 2011px;
+  overflow: hidden;
+}
+.verifier-dashboard .group3 {
+  position: absolute;
+  inset: 0;
+}
+.verifier-dashboard .vector23 {
+  width: 89.52%;
+  height: 0%;
+  position: absolute;
+  right: 0.75%;
+  left: 9.73%;
+  bottom: 15.25%;
+  top: 84.75%;
+  overflow: visible;
+}
+.verifier-dashboard .group4 {
+  width: 929.16px;
+  height: 40px;
+  position: static;
+}
+.verifier-dashboard .group5 {
+  width: 11.64px;
+  height: 40px;
+  position: static;
+}
+.verifier-dashboard .vector24 {
+  width: 0%;
+  height: 3%;
+  position: absolute;
+  right: 86.54%;
+  left: 13.46%;
+  bottom: 12.25%;
+  top: 84.75%;
+  overflow: visible;
+}
+.verifier-dashboard ._1 {
+  color: #000000;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 86.02%;
+  left: 12.94%;
+  width: 1.05%;
+  bottom: 5.25%;
+  top: 87.75%;
+  height: 7%;
+}
+.verifier-dashboard .vector25 {
+  width: 0%;
+  height: 3%;
+  position: absolute;
+  right: 79.08%;
+  left: 20.92%;
+  bottom: 12.25%;
+  top: 84.75%;
+  overflow: visible;
+}
+.verifier-dashboard ._2 {
+  color: #000000;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 78.56%;
+  left: 20.4%;
+  width: 1.05%;
+  bottom: 5.25%;
+  top: 87.75%;
+  height: 7%;
+}
+.verifier-dashboard .vector26 {
+  width: 0%;
+  height: 3%;
+  position: absolute;
+  right: 71.62%;
+  left: 28.38%;
+  bottom: 12.25%;
+  top: 84.75%;
+  overflow: visible;
+}
+.verifier-dashboard ._3 {
+  color: #000000;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 71.1%;
+  left: 27.86%;
+  width: 1.05%;
+  bottom: 5.25%;
+  top: 87.75%;
+  height: 7%;
+}
+.verifier-dashboard .vector27 {
+  width: 0%;
+  height: 3%;
+  position: absolute;
+  right: 64.16%;
+  left: 35.84%;
+  bottom: 12.25%;
+  top: 84.75%;
+  overflow: visible;
+}
+.verifier-dashboard ._42 {
+  color: #000000;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 63.64%;
+  left: 35.32%;
+  width: 1.05%;
+  bottom: 5.25%;
+  top: 87.75%;
+  height: 7%;
+}
+.verifier-dashboard .vector28 {
+  width: 0%;
+  height: 3%;
+  position: absolute;
+  right: 56.7%;
+  left: 43.3%;
+  bottom: 12.25%;
+  top: 84.75%;
+  overflow: visible;
+}
+.verifier-dashboard ._5 {
+  color: #000000;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 56.18%;
+  left: 42.78%;
+  width: 1.05%;
+  bottom: 5.25%;
+  top: 87.75%;
+  height: 7%;
+}
+.verifier-dashboard .vector29 {
+  width: 0%;
+  height: 3%;
+  position: absolute;
+  right: 49.24%;
+  left: 50.76%;
+  bottom: 12.25%;
+  top: 84.75%;
+  overflow: visible;
+}
+.verifier-dashboard ._6 {
+  color: #000000;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 48.72%;
+  left: 50.24%;
+  width: 1.05%;
+  bottom: 5.25%;
+  top: 87.75%;
+  height: 7%;
+}
+.verifier-dashboard .vector30 {
+  width: 0%;
+  height: 3%;
+  position: absolute;
+  right: 41.78%;
+  left: 58.22%;
+  bottom: 12.25%;
+  top: 84.75%;
+  overflow: visible;
+}
+.verifier-dashboard ._72 {
+  color: #000000;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 41.25%;
+  left: 57.7%;
+  width: 1.05%;
+  bottom: 5.25%;
+  top: 87.75%;
+  height: 7%;
+}
+.verifier-dashboard .vector31 {
+  width: 0%;
+  height: 3%;
+  position: absolute;
+  right: 34.32%;
+  left: 65.68%;
+  bottom: 12.25%;
+  top: 84.75%;
+  overflow: visible;
+}
+.verifier-dashboard ._8 {
+  color: #000000;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 33.79%;
+  left: 65.16%;
+  width: 1.05%;
+  bottom: 5.25%;
+  top: 87.75%;
+  height: 7%;
+}
+.verifier-dashboard .vector32 {
+  width: 0%;
+  height: 3%;
+  position: absolute;
+  right: 26.86%;
+  left: 73.14%;
+  bottom: 12.25%;
+  top: 84.75%;
+  overflow: visible;
+}
+.verifier-dashboard ._9 {
+  color: #000000;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 26.33%;
+  left: 72.62%;
+  width: 1.05%;
+  bottom: 5.25%;
+  top: 87.75%;
+  height: 7%;
+}
+.verifier-dashboard .group6 {
+  width: 13.83px;
+  height: 40px;
+  position: static;
+}
+.verifier-dashboard .vector33 {
+  width: 0%;
+  height: 3%;
+  position: absolute;
+  right: 19.4%;
+  left: 80.6%;
+  bottom: 12.25%;
+  top: 84.75%;
+  overflow: visible;
+}
+.verifier-dashboard ._10 {
+  color: #000000;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 18.68%;
+  left: 80.08%;
+  width: 1.24%;
+  bottom: 5.25%;
+  top: 87.75%;
+  height: 7%;
+}
+.verifier-dashboard .group7 {
+  width: 23.28px;
+  height: 40px;
+  position: static;
+}
+.verifier-dashboard .vector34 {
+  width: 0%;
+  height: 3%;
+  position: absolute;
+  right: 11.94%;
+  left: 88.06%;
+  bottom: 12.25%;
+  top: 84.75%;
+  overflow: visible;
+}
+.verifier-dashboard ._11 {
+  color: #000000;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 10.89%;
+  left: 87.01%;
+  width: 2.1%;
+  bottom: 5.25%;
+  top: 87.75%;
+  height: 7%;
+}
+.verifier-dashboard .vector35 {
+  width: 0%;
+  height: 3%;
+  position: absolute;
+  right: 4.48%;
+  left: 95.52%;
+  bottom: 12.25%;
+  top: 84.75%;
+  overflow: visible;
+}
+.verifier-dashboard ._12 {
+  color: #000000;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 3.43%;
+  left: 94.47%;
+  width: 2.1%;
+  bottom: 5.25%;
+  top: 87.75%;
+  height: 7%;
+}
+.verifier-dashboard .vector36 {
+  width: 0%;
+  height: 80%;
+  position: absolute;
+  right: 90.27%;
+  left: 9.73%;
+  bottom: 15.25%;
+  top: 4.75%;
+  overflow: visible;
+}
+.verifier-dashboard .group8 {
+  width: 63.2px;
+  height: 340px;
+  position: static;
+}
+.verifier-dashboard .group9 {
+  width: 29.94px;
+  height: 28px;
+  position: static;
+}
+.verifier-dashboard .vector37 {
+  width: 0.9%;
+  height: 0%;
+  position: absolute;
+  right: 90.27%;
+  left: 8.83%;
+  bottom: 15.25%;
+  top: 84.75%;
+  overflow: visible;
+}
+.verifier-dashboard ._0 {
+  color: #000000;
+  text-align: right;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 91.92%;
+  left: 7.04%;
+  width: 1.05%;
+  bottom: 14.25%;
+  top: 78.75%;
+  height: 7%;
+}
+.verifier-dashboard .group10 {
+  width: 53.22px;
+  height: 28px;
+  position: static;
+}
+.verifier-dashboard .vector38 {
+  width: 0.9%;
+  height: 0%;
+  position: absolute;
+  right: 90.27%;
+  left: 8.83%;
+  bottom: 35.25%;
+  top: 64.75%;
+  overflow: visible;
+}
+.verifier-dashboard ._250 {
+  color: #000000;
+  text-align: right;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 91.92%;
+  left: 4.94%;
+  width: 3.14%;
+  bottom: 34.25%;
+  top: 58.75%;
+  height: 7%;
+}
+.verifier-dashboard .vector39 {
+  width: 0.9%;
+  height: 0%;
+  position: absolute;
+  right: 90.27%;
+  left: 8.83%;
+  bottom: 55.25%;
+  top: 44.75%;
+  overflow: visible;
+}
+.verifier-dashboard ._500 {
+  color: #000000;
+  text-align: right;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 91.92%;
+  left: 4.94%;
+  width: 3.14%;
+  bottom: 54.25%;
+  top: 38.75%;
+  height: 7%;
+}
+.verifier-dashboard .vector40 {
+  width: 0.9%;
+  height: 0%;
+  position: absolute;
+  right: 90.27%;
+  left: 8.83%;
+  bottom: 75.25%;
+  top: 24.75%;
+  overflow: visible;
+}
+.verifier-dashboard ._750 {
+  color: #000000;
+  text-align: right;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 91.92%;
+  left: 4.94%;
+  width: 3.14%;
+  bottom: 74.25%;
+  top: 18.75%;
+  height: 7%;
+}
+.verifier-dashboard .group11 {
+  width: 63.2px;
+  height: 28px;
+  position: static;
+}
+.verifier-dashboard .vector41 {
+  width: 0.9%;
+  height: 0%;
+  position: absolute;
+  right: 90.27%;
+  left: 8.83%;
+  bottom: 95.25%;
+  top: 4.75%;
+  overflow: visible;
+}
+.verifier-dashboard ._1000 {
+  color: #000000;
+  text-align: right;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 91.92%;
+  left: 4.04%;
+  width: 4.04%;
+  bottom: 92.25%;
+  top: 0.75%;
+  height: 7%;
+}
+.verifier-dashboard .group12 {
+  height: auto;
+  position: absolute;
+  left: 116.39px;
+  top: 34.32px;
+  overflow: visible;
+}
+.verifier-dashboard .rectangle-40 {
+  background: #ffffff;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #dfe0eb;
+  border-width: 1px;
+  width: 1134px;
+  height: 453px;
+  position: absolute;
+  left: 266px;
+  top: 1441px;
+}
+.verifier-dashboard .loans-released-monthly {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 23px;
+  font-weight: 500;
+  position: absolute;
+  left: 294px;
+  top: 1465px;
+  width: 292px;
+  height: 22px;
+}
+.verifier-dashboard .total-outstanding-open-loans-monthly {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 23px;
+  font-weight: 500;
+  position: absolute;
+  left: 295px;
+  top: 1960px;
+  width: 485px;
+  height: 23px;
+}
+.verifier-dashboard .chart2 {
+  width: 1112px;
+  height: 385px;
+  position: absolute;
+  left: 226px;
+  top: 1510px;
+  overflow: hidden;
+}
+.verifier-dashboard .vector42 {
+  width: 89.52%;
+  height: 0%;
+  position: absolute;
+  right: 0.75%;
+  left: 9.73%;
+  bottom: 14%;
+  top: 86%;
+  overflow: visible;
+}
+.verifier-dashboard .group13 {
+  width: 1014.28px;
+  height: 38.5px;
+  position: static;
+}
+.verifier-dashboard .group14 {
+  width: 11.65px;
+  height: 38.5px;
+  position: static;
+}
+.verifier-dashboard .vector43 {
+  width: 0%;
+  height: 3%;
+  position: absolute;
+  right: 90.27%;
+  left: 9.73%;
+  bottom: 11%;
+  top: 86%;
+  overflow: visible;
+}
+.verifier-dashboard ._13 {
+  color: #000000;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 89.75%;
+  left: 9.21%;
+  width: 1.05%;
+  bottom: 4%;
+  top: 89%;
+  height: 7%;
+}
+.verifier-dashboard .vector44 {
+  width: 0%;
+  height: 3%;
+  position: absolute;
+  right: 82.13%;
+  left: 17.87%;
+  bottom: 11%;
+  top: 86%;
+  overflow: visible;
+}
+.verifier-dashboard ._22 {
+  color: #000000;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 81.61%;
+  left: 17.34%;
+  width: 1.05%;
+  bottom: 4%;
+  top: 89%;
+  height: 7%;
+}
+.verifier-dashboard .vector45 {
+  width: 0%;
+  height: 3%;
+  position: absolute;
+  right: 73.99%;
+  left: 26.01%;
+  bottom: 11%;
+  top: 86%;
+  overflow: visible;
+}
+.verifier-dashboard ._32 {
+  color: #000000;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 73.47%;
+  left: 25.48%;
+  width: 1.05%;
+  bottom: 4%;
+  top: 89%;
+  height: 7%;
+}
+.verifier-dashboard .vector46 {
+  width: 0%;
+  height: 3%;
+  position: absolute;
+  right: 65.85%;
+  left: 34.15%;
+  bottom: 11%;
+  top: 86%;
+  overflow: visible;
+}
+.verifier-dashboard ._43 {
+  color: #000000;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 65.33%;
+  left: 33.62%;
+  width: 1.05%;
+  bottom: 4%;
+  top: 89%;
+  height: 7%;
+}
+.verifier-dashboard .vector47 {
+  width: 0%;
+  height: 3%;
+  position: absolute;
+  right: 57.72%;
+  left: 42.28%;
+  bottom: 11%;
+  top: 86%;
+  overflow: visible;
+}
+.verifier-dashboard ._52 {
+  color: #000000;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 57.19%;
+  left: 41.76%;
+  width: 1.05%;
+  bottom: 4%;
+  top: 89%;
+  height: 7%;
+}
+.verifier-dashboard .vector48 {
+  width: 0%;
+  height: 3%;
+  position: absolute;
+  right: 49.58%;
+  left: 50.42%;
+  bottom: 11%;
+  top: 86%;
+  overflow: visible;
+}
+.verifier-dashboard ._62 {
+  color: #000000;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 49.05%;
+  left: 49.9%;
+  width: 1.05%;
+  bottom: 4%;
+  top: 89%;
+  height: 7%;
+}
+.verifier-dashboard .vector49 {
+  width: 0%;
+  height: 3%;
+  position: absolute;
+  right: 41.44%;
+  left: 58.56%;
+  bottom: 11%;
+  top: 86%;
+  overflow: visible;
+}
+.verifier-dashboard ._73 {
+  color: #000000;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 40.92%;
+  left: 58.04%;
+  width: 1.05%;
+  bottom: 4%;
+  top: 89%;
+  height: 7%;
+}
+.verifier-dashboard .vector50 {
+  width: 0%;
+  height: 3%;
+  position: absolute;
+  right: 33.3%;
+  left: 66.7%;
+  bottom: 11%;
+  top: 86%;
+  overflow: visible;
+}
+.verifier-dashboard ._82 {
+  color: #000000;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 32.78%;
+  left: 66.17%;
+  width: 1.05%;
+  bottom: 4%;
+  top: 89%;
+  height: 7%;
+}
+.verifier-dashboard .vector51 {
+  width: 0%;
+  height: 3%;
+  position: absolute;
+  right: 25.16%;
+  left: 74.84%;
+  bottom: 11%;
+  top: 86%;
+  overflow: visible;
+}
+.verifier-dashboard ._92 {
+  color: #000000;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 24.64%;
+  left: 74.31%;
+  width: 1.05%;
+  bottom: 4%;
+  top: 89%;
+  height: 7%;
+}
+.verifier-dashboard .group15 {
+  width: 23.31px;
+  height: 38.5px;
+  position: static;
+}
+.verifier-dashboard .vector52 {
+  width: 0%;
+  height: 3%;
+  position: absolute;
+  right: 16.65%;
+  left: 83.35%;
+  bottom: 11%;
+  top: 86%;
+  overflow: visible;
+}
+.verifier-dashboard ._102 {
+  color: #000000;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 15.45%;
+  left: 82.45%;
+  width: 2.1%;
+  bottom: 4%;
+  top: 89%;
+  height: 7%;
+}
+.verifier-dashboard .vector53 {
+  width: 0%;
+  height: 3%;
+  position: absolute;
+  right: 8.89%;
+  left: 91.11%;
+  bottom: 11%;
+  top: 86%;
+  overflow: visible;
+}
+.verifier-dashboard ._112 {
+  color: #000000;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 7.84%;
+  left: 90.07%;
+  width: 2.1%;
+  bottom: 4%;
+  top: 89%;
+  height: 7%;
+}
+.verifier-dashboard .vector54 {
+  width: 0%;
+  height: 3%;
+  position: absolute;
+  right: 0.75%;
+  left: 99.25%;
+  bottom: 11%;
+  top: 86%;
+  overflow: visible;
+}
+.verifier-dashboard ._122 {
+  color: #000000;
+  text-align: center;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: -0.42%;
+  left: 98.32%;
+  width: 2.1%;
+  bottom: 4%;
+  top: 89%;
+  height: 7%;
+}
+.verifier-dashboard .vector55 {
+  width: 0%;
+  height: 80%;
+  position: absolute;
+  right: 90.27%;
+  left: 9.73%;
+  bottom: 14%;
+  top: 6%;
+  overflow: visible;
+}
+.verifier-dashboard .group16 {
+  width: 63.26px;
+  height: 327.25px;
+  position: static;
+}
+.verifier-dashboard .group17 {
+  width: 29.96px;
+  height: 26.95px;
+  position: static;
+}
+.verifier-dashboard .vector56 {
+  width: 0.9%;
+  height: 0%;
+  position: absolute;
+  right: 90.27%;
+  left: 8.83%;
+  bottom: 14%;
+  top: 86%;
+  overflow: visible;
+}
+.verifier-dashboard ._02 {
+  color: #000000;
+  text-align: right;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 91.92%;
+  left: 7.04%;
+  width: 1.05%;
+  bottom: 13%;
+  top: 80%;
+  height: 7%;
+}
+.verifier-dashboard .group18 {
+  width: 53.27px;
+  height: 26.95px;
+  position: static;
+}
+.verifier-dashboard .vector57 {
+  width: 0.9%;
+  height: 0%;
+  position: absolute;
+  right: 90.27%;
+  left: 8.83%;
+  bottom: 34%;
+  top: 66%;
+  overflow: visible;
+}
+.verifier-dashboard ._2502 {
+  color: #000000;
+  text-align: right;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 91.92%;
+  left: 4.94%;
+  width: 3.14%;
+  bottom: 33%;
+  top: 60%;
+  height: 7%;
+}
+.verifier-dashboard .vector58 {
+  width: 0.9%;
+  height: 0%;
+  position: absolute;
+  right: 90.27%;
+  left: 8.83%;
+  bottom: 54%;
+  top: 46%;
+  overflow: visible;
+}
+.verifier-dashboard ._5002 {
+  color: #000000;
+  text-align: right;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 91.92%;
+  left: 4.94%;
+  width: 3.14%;
+  bottom: 53%;
+  top: 40%;
+  height: 7%;
+}
+.verifier-dashboard .vector59 {
+  width: 0.9%;
+  height: 0%;
+  position: absolute;
+  right: 90.27%;
+  left: 8.83%;
+  bottom: 74%;
+  top: 26%;
+  overflow: visible;
+}
+.verifier-dashboard ._7502 {
+  color: #000000;
+  text-align: right;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 91.92%;
+  left: 4.94%;
+  width: 3.14%;
+  bottom: 73%;
+  top: 20%;
+  height: 7%;
+}
+.verifier-dashboard .group19 {
+  width: 63.26px;
+  height: 26.95px;
+  position: static;
+}
+.verifier-dashboard .vector60 {
+  width: 0.9%;
+  height: 0%;
+  position: absolute;
+  right: 90.27%;
+  left: 8.83%;
+  bottom: 94%;
+  top: 6%;
+  overflow: visible;
+}
+.verifier-dashboard ._10002 {
+  color: #000000;
+  text-align: right;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 91.92%;
+  left: 4.04%;
+  width: 4.04%;
+  bottom: 91%;
+  top: 2%;
+  height: 7%;
+}
+.verifier-dashboard .group20 {
+  height: auto;
+  position: absolute;
+  left: 103.34px;
+  top: 17.1px;
+  overflow: visible;
+}
+.verifier-dashboard .rectangle-48 {
+  background: #ffffff;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #dfe0eb;
+  border-width: 1px;
+  width: 1134px;
+  height: 472px;
+  position: absolute;
+  left: 266px;
+  top: 2456px;
+}
+.verifier-dashboard .chart3 {
+  width: 1111px;
+  height: 400px;
+  position: absolute;
+  left: 226px;
+  top: 2528px;
+  overflow: hidden;
+}
+.verifier-dashboard .vector61 {
+  width: 89.52%;
+  height: 0%;
+  position: absolute;
+  right: 0.75%;
+  left: 9.73%;
+  bottom: 15.25%;
+  top: 84.75%;
+  overflow: visible;
+}
+.verifier-dashboard .vector62 {
+  width: 0%;
+  height: 3%;
+  position: absolute;
+  right: 86.54%;
+  left: 13.46%;
+  bottom: 12.25%;
+  top: 84.75%;
+  overflow: visible;
+}
+.verifier-dashboard .vector63 {
+  width: 0%;
+  height: 3%;
+  position: absolute;
+  right: 79.08%;
+  left: 20.92%;
+  bottom: 12.25%;
+  top: 84.75%;
+  overflow: visible;
+}
+.verifier-dashboard .vector64 {
+  width: 0%;
+  height: 3%;
+  position: absolute;
+  right: 71.62%;
+  left: 28.38%;
+  bottom: 12.25%;
+  top: 84.75%;
+  overflow: visible;
+}
+.verifier-dashboard .vector65 {
+  width: 0%;
+  height: 3%;
+  position: absolute;
+  right: 64.16%;
+  left: 35.84%;
+  bottom: 12.25%;
+  top: 84.75%;
+  overflow: visible;
+}
+.verifier-dashboard .vector66 {
+  width: 0%;
+  height: 3%;
+  position: absolute;
+  right: 56.7%;
+  left: 43.3%;
+  bottom: 12.25%;
+  top: 84.75%;
+  overflow: visible;
+}
+.verifier-dashboard .vector67 {
+  width: 0%;
+  height: 3%;
+  position: absolute;
+  right: 49.24%;
+  left: 50.76%;
+  bottom: 12.25%;
+  top: 84.75%;
+  overflow: visible;
+}
+.verifier-dashboard .vector68 {
+  width: 0%;
+  height: 3%;
+  position: absolute;
+  right: 41.78%;
+  left: 58.22%;
+  bottom: 12.25%;
+  top: 84.75%;
+  overflow: visible;
+}
+.verifier-dashboard .vector69 {
+  width: 0%;
+  height: 3%;
+  position: absolute;
+  right: 34.32%;
+  left: 65.68%;
+  bottom: 12.25%;
+  top: 84.75%;
+  overflow: visible;
+}
+.verifier-dashboard .vector70 {
+  width: 0%;
+  height: 3%;
+  position: absolute;
+  right: 26.86%;
+  left: 73.14%;
+  bottom: 12.25%;
+  top: 84.75%;
+  overflow: visible;
+}
+.verifier-dashboard .vector71 {
+  width: 0%;
+  height: 3%;
+  position: absolute;
+  right: 19.4%;
+  left: 80.6%;
+  bottom: 12.25%;
+  top: 84.75%;
+  overflow: visible;
+}
+.verifier-dashboard .vector72 {
+  width: 0%;
+  height: 3%;
+  position: absolute;
+  right: 11.94%;
+  left: 88.06%;
+  bottom: 12.25%;
+  top: 84.75%;
+  overflow: visible;
+}
+.verifier-dashboard .vector73 {
+  width: 0%;
+  height: 3%;
+  position: absolute;
+  right: 4.48%;
+  left: 95.52%;
+  bottom: 12.25%;
+  top: 84.75%;
+  overflow: visible;
+}
+.verifier-dashboard .vector74 {
+  width: 0%;
+  height: 80%;
+  position: absolute;
+  right: 90.27%;
+  left: 9.73%;
+  bottom: 15.25%;
+  top: 4.75%;
+  overflow: visible;
+}
+.verifier-dashboard .vector75 {
+  width: 0.9%;
+  height: 0%;
+  position: absolute;
+  right: 90.27%;
+  left: 8.83%;
+  bottom: 15.25%;
+  top: 84.75%;
+  overflow: visible;
+}
+.verifier-dashboard .group21 {
+  width: 0.9%;
+  height: 0%;
+  position: absolute;
+  right: 90.27%;
+  left: 8.83%;
+  bottom: 35.25%;
+  top: 64.75%;
+  overflow: visible;
+}
+.verifier-dashboard .vector76 {
+  width: 0.9%;
+  height: 0%;
+  position: absolute;
+  right: 90.27%;
+  left: 8.83%;
+  bottom: 55.25%;
+  top: 44.75%;
+  overflow: visible;
+}
+.verifier-dashboard ._53 {
+  color: #000000;
+  text-align: right;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 91.92%;
+  left: 4.94%;
+  width: 3.14%;
+  bottom: 54.25%;
+  top: 38.75%;
+  height: 7%;
+}
+.verifier-dashboard .group22 {
+  width: 0.9%;
+  height: 0%;
+  position: absolute;
+  right: 90.27%;
+  left: 8.83%;
+  bottom: 75.25%;
+  top: 24.75%;
+  overflow: visible;
+}
+.verifier-dashboard .vector77 {
+  width: 0.9%;
+  height: 0%;
+  position: absolute;
+  right: 90.27%;
+  left: 8.83%;
+  bottom: 95.25%;
+  top: 4.75%;
+  overflow: visible;
+}
+.verifier-dashboard ._103 {
+  color: #000000;
+  text-align: right;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  right: 91.92%;
+  left: 4.04%;
+  width: 4.04%;
+  bottom: 92.25%;
+  top: 0.75%;
+  height: 7%;
+}
+.verifier-dashboard .group23 {
+  height: auto;
+  position: absolute;
+  left: 116.39px;
+  top: 34.32px;
+  overflow: visible;
+}
+.verifier-dashboard .number-of-repayments-collected-monthly {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 23px;
+  font-weight: 500;
+  position: absolute;
+  left: 295px;
+  top: 2477px;
+  width: 485px;
+  height: 23px;
+}
+.verifier-dashboard .rectangle-49 {
+  background: rgba(171, 26, 16, 0.82);
+  border-radius: 16.99px;
+  width: 1134px;
+  height: 12px;
+  position: absolute;
+  left: 266px;
+  top: 2453px;
+}
+.verifier-dashboard .rectangle-46 {
+  background: rgba(5, 14, 214, 0.92);
+  border-radius: 16.99px;
+  width: 1134px;
+  height: 13px;
+  position: absolute;
+  left: 266px;
+  top: 1935px;
+}
+.verifier-dashboard .rectangle-47 {
+  background: #adcf1a;
+  border-radius: 16.99px;
+  width: 1134px;
+  height: 12px;
+  position: absolute;
+  left: 266px;
+  top: 1441px;
+}
