@@ -1,0 +1,968 @@
+.user-dashboard-loans,
+.user-dashboard-loans * {
+  box-sizing: border-box;
+}
+.user-dashboard-loans {
+  background: #efefef;
+  height: 1800px;
+  position: relative;
+  overflow: hidden;
+}
+.user-dashboard-loans .rectangle-50 {
+  background: #ffffff;
+  border-radius: 7px;
+  width: 759px;
+  height: 55px;
+  position: absolute;
+  left: 340px;
+  top: 301px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.user-dashboard-loans .rectangle-54 {
+  background: rgba(10, 81, 47, 0.19);
+  border-radius: 7px;
+  width: 150px;
+  height: 45px;
+  position: absolute;
+  left: 950px;
+  top: 202px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.user-dashboard-loans .get-a-loan {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  font-weight: 500;
+  position: absolute;
+  left: 985px;
+  top: 215px;
+}
+.user-dashboard-loans .rectangle-53 {
+  background: rgba(255, 255, 255, 0.96);
+  border-radius: 7px;
+  width: 759px;
+  height: 55px;
+  position: absolute;
+  left: 340px;
+  top: 392px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.user-dashboard-loans .rectangle-52 {
+  background: rgba(107, 153, 8, 0.1);
+  border-radius: 7px 0px 0px 7px;
+  width: 251px;
+  height: 55px;
+  position: absolute;
+  left: 340px;
+  top: 301px;
+}
+.user-dashboard-loans .header {
+  background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(234, 234, 233, 1) 53.41028571128845%
+    ),
+    linear-gradient(to left, #ffffff, #ffffff);
+  width: 1440px;
+  height: 70px;
+  position: absolute;
+  left: 0px;
+  top: 0.5px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.user-dashboard-loans .tabler-currency-naira {
+  width: 49px;
+  height: 43px;
+  position: absolute;
+  left: 580.93px;
+  top: 15px;
+  box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.4);
+  overflow: hidden;
+}
+.user-dashboard-loans .group {
+  width: 58.33%;
+  height: 50%;
+  position: absolute;
+  right: 20.83%;
+  left: 20.83%;
+  bottom: 25%;
+  top: 25%;
+  overflow: visible;
+}
+.user-dashboard-loans .tabler-currency-naira2 {
+  width: 20px;
+  height: 27px;
+  position: absolute;
+  left: 430px;
+  top: 213px;
+  box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.4);
+  overflow: hidden;
+}
+.user-dashboard-loans .group2 {
+  width: 58.33%;
+  height: 50%;
+  position: absolute;
+  right: 20.83%;
+  left: 20.83%;
+  bottom: 25%;
+  top: 25%;
+  overflow: visible;
+}
+.user-dashboard-loans .credit-app {
+  color: #0a512f;
+  text-align: left;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 28.545454025268555px;
+  font-weight: 700;
+  position: absolute;
+  left: 21px;
+  top: 23.5px;
+}
+.user-dashboard-loans .home {
+  color: #064921;
+  text-align: left;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  position: absolute;
+  left: 482.93px;
+  top: 23.5px;
+}
+.user-dashboard-loans .payments {
+  color: rgba(10, 81, 47, 0.7);
+  text-align: left;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 633.93px;
+  top: 23.5px;
+}
+.user-dashboard-loans .account-circle {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 1283px;
+  top: 14.5px;
+  overflow: visible;
+}
+.user-dashboard-loans .user {
+  color: #0a512f;
+  text-align: left;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  position: absolute;
+  left: 1334px;
+  top: 20.5px;
+}
+.user-dashboard-loans .vector {
+  width: 0.97%;
+  height: 0.5%;
+  position: absolute;
+  right: 2.22%;
+  left: 96.81%;
+  bottom: 98.09%;
+  top: 1.41%;
+  overflow: visible;
+}
+.user-dashboard-loans .vector2 {
+  width: 2.08%;
+  height: 1.61%;
+  position: absolute;
+  right: 12.01%;
+  left: 85.9%;
+  bottom: 97.56%;
+  top: 0.83%;
+  overflow: visible;
+}
+.user-dashboard-loans .vector3 {
+  width: 1.88%;
+  height: 1.61%;
+  position: absolute;
+  right: 15.9%;
+  left: 82.22%;
+  bottom: 97.56%;
+  top: 0.83%;
+  overflow: visible;
+}
+.user-dashboard-loans ._4 {
+  color: #a61b13;
+  text-align: left;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  position: absolute;
+  left: 1200px;
+  top: 6.5px;
+}
+.user-dashboard-loans .vector4 {
+  width: 2.57%;
+  height: 1.61%;
+  position: absolute;
+  right: 67.29%;
+  left: 30.14%;
+  bottom: 97.11%;
+  top: 1.28%;
+  overflow: visible;
+}
+.user-dashboard-loans .budget {
+  color: rgba(10, 81, 47, 0.7);
+  text-align: left;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 809.93px;
+  top: 23.5px;
+}
+.user-dashboard-loans .card {
+  color: rgba(10, 81, 47, 0.7);
+  text-align: left;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 963.93px;
+  top: 23.5px;
+}
+.user-dashboard-loans .vector5 {
+  width: 2.57%;
+  height: 1.61%;
+  position: absolute;
+  right: 34.03%;
+  left: 63.4%;
+  bottom: 97.28%;
+  top: 1.11%;
+  overflow: visible;
+}
+.user-dashboard-loans .vector6 {
+  width: 1.6%;
+  height: 1.61%;
+  position: absolute;
+  right: 45.21%;
+  left: 53.19%;
+  bottom: 97.11%;
+  top: 1.28%;
+  overflow: visible;
+}
+.user-dashboard-loans .borrow-cash {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 411px;
+  top: 320px;
+}
+.user-dashboard-loans .transact {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 698px;
+  top: 319px;
+}
+.user-dashboard-loans .deposit-cash {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 945px;
+  top: 319px;
+}
+.user-dashboard-loans .line-1 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-width: 1px 0 0 0;
+  width: 55px;
+  height: 0px;
+  position: absolute;
+  left: 587px;
+  top: 301px;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+}
+.user-dashboard-loans .line-2 {
+  margin-top: -1px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.29);
+  border-width: 1px 0 0 0;
+  width: 55px;
+  height: 0px;
+  position: absolute;
+  left: 869px;
+  top: 301px;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+}
+.user-dashboard-loans .rectangle-51 {
+  background: #6b9908;
+  width: 80px;
+  height: 69px;
+  position: absolute;
+  left: 340px;
+  top: 191px;
+}
+.user-dashboard-loans .deficit {
+  color: #6b9908;
+  text-align: left;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  position: absolute;
+  left: 435px;
+  top: 188px;
+}
+.user-dashboard-loans ._0-0 {
+  color: #6b9908;
+  text-align: left;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  position: absolute;
+  left: 453px;
+  top: 221px;
+}
+.user-dashboard-loans .vector7 {
+  width: 3.06%;
+  height: 1.67%;
+  position: absolute;
+  right: 72.64%;
+  left: 24.31%;
+  bottom: 86.44%;
+  top: 11.89%;
+  overflow: visible;
+}
+.user-dashboard-loans .vector8 {
+  width: 1.52%;
+  height: 0.26%;
+  position: absolute;
+  right: 71.88%;
+  left: 26.6%;
+  bottom: 88.13%;
+  top: 11.61%;
+  overflow: visible;
+}
+.user-dashboard-loans .vector9 {
+  width: 1.74%;
+  height: 1.39%;
+  position: absolute;
+  right: 73.26%;
+  left: 25%;
+  bottom: 76.06%;
+  top: 22.56%;
+  overflow: visible;
+}
+.user-dashboard-loans .search-for-loans {
+  color: #696969;
+  text-align: left;
+  font-family: "Roboto-Bold", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  left: 418px;
+  top: 408px;
+}
+.user-dashboard-loans .all-tickets {
+  height: 915px;
+  position: absolute;
+  right: 128px;
+  left: 175px;
+  top: 483px;
+  overflow: hidden;
+}
+.user-dashboard-loans .cards-default {
+  position: absolute;
+  right: -12.05px;
+  left: -11.049142837524414px;
+  bottom: 0px;
+  top: -18.597625732421875px;
+}
+.user-dashboard-loans .sheet {
+  background: var(--grayscale-white, #ffffff);
+  border-radius: 8.36px;
+  border-style: solid;
+  border-color: var(--grayscale-divider, #dfe0eb);
+  border-width: 1.04px;
+  position: absolute;
+  right: 14.05px;
+  left: 12.0491943359375px;
+  bottom: 0px;
+  top: 13.597625732421875px;
+}
+.user-dashboard-loans .applied-loans {
+  color: #000000;
+  text-align: left;
+  font-family: "Roboto-Medium", sans-serif;
+  font-size: 23.491365432739258px;
+  font-weight: 500;
+  position: absolute;
+  left: 29.59px;
+  top: 48.98px;
+  width: 204.27px;
+  height: 23.47px;
+}
+.user-dashboard-loans .filter {
+  position: absolute;
+  inset: 0;
+}
+.user-dashboard-loans .filter2 {
+  color: var(--grayscale-gray-dark, #4b506d);
+  text-align: left;
+  font-family: var(
+    --semibold-14-02-px-font-family,
+    "Mulish-SemiBold",
+    sans-serif
+  );
+  font-size: var(--semibold-14-02-px-font-size, 14px);
+  line-height: var(--semibold-14-02-px-line-height, 20px);
+  letter-spacing: var(--semibold-14-02-px-letter-spacing, 0.2px);
+  font-weight: var(--semibold-14-02-px-font-weight, 600);
+  position: absolute;
+  right: 32px;
+  top: 37px;
+}
+.user-dashboard-loans .icon-filter {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  right: 74px;
+  top: 38px;
+  overflow: visible;
+}
+.user-dashboard-loans .sort {
+  position: absolute;
+  inset: 0;
+}
+.user-dashboard-loans .sort2 {
+  color: var(--grayscale-gray-dark, #4b506d);
+  text-align: left;
+  font-family: var(
+    --semibold-14-02-px-font-family,
+    "Mulish-SemiBold",
+    sans-serif
+  );
+  font-size: var(--semibold-14-02-px-font-size, 14px);
+  line-height: var(--semibold-14-02-px-line-height, 20px);
+  letter-spacing: var(--semibold-14-02-px-letter-spacing, 0.2px);
+  font-weight: var(--semibold-14-02-px-font-weight, 600);
+  position: absolute;
+  right: 122px;
+  top: 37px;
+}
+.user-dashboard-loans .icon-sort {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  right: 159px;
+  top: 38px;
+  overflow: visible;
+}
+.user-dashboard-loans .table-bottom {
+  position: absolute;
+  inset: 0;
+}
+.user-dashboard-loans .rows-per-page {
+  width: 139px;
+  height: 18px;
+  position: static;
+}
+.user-dashboard-loans .rows-per-page2 {
+  color: var(--grayscale-gray, #9fa2b4);
+  text-align: left;
+  font-family: var(--reg-14-03-px-font-family, "Mulish-Regular", sans-serif);
+  font-size: var(--reg-14-03-px-font-size, 14px);
+  line-height: var(--reg-14-03-px-line-height, 20px);
+  letter-spacing: var(--reg-14-03-px-letter-spacing, 0.3px);
+  font-weight: var(--reg-14-03-px-font-weight, 400);
+  position: absolute;
+  right: 297px;
+  top: 819px;
+  width: 106px;
+  height: 18px;
+}
+.user-dashboard-loans ._7 {
+  color: var(--grayscale-gray-dark, #4b506d);
+  text-align: right;
+  font-family: var(--reg-14-03-px-font-family, "Mulish-Regular", sans-serif);
+  font-size: var(--reg-14-03-px-font-size, 14px);
+  line-height: var(--reg-14-03-px-line-height, 20px);
+  letter-spacing: var(--reg-14-03-px-letter-spacing, 0.3px);
+  font-weight: var(--reg-14-03-px-font-weight, 400);
+  position: absolute;
+  right: 279px;
+  top: 819px;
+  width: 10px;
+  height: 18px;
+}
+.user-dashboard-loans .icon-dropdown {
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  right: 264px;
+  top: 822px;
+  overflow: visible;
+}
+.user-dashboard-loans .pagination {
+  width: 184px;
+  height: 24px;
+  position: static;
+}
+.user-dashboard-loans ._1-4-of-4 {
+  color: var(--grayscale-gray, #9fa2b4);
+  text-align: left;
+  font-family: var(--reg-14-03-px-font-family, "Mulish-Regular", sans-serif);
+  font-size: var(--reg-14-03-px-font-size, 14px);
+  line-height: var(--reg-14-03-px-line-height, 20px);
+  letter-spacing: var(--reg-14-03-px-letter-spacing, 0.3px);
+  font-weight: var(--reg-14-03-px-font-weight, 400);
+  position: absolute;
+  right: 116px;
+  top: 819px;
+  width: 100px;
+  height: 18px;
+}
+.user-dashboard-loans .icon-arrow-left {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 68px;
+  top: 816px;
+  overflow: visible;
+}
+.user-dashboard-loans .icon-arrow-right {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 32px;
+  top: 816px;
+  overflow: visible;
+}
+.user-dashboard-loans .table-top {
+  height: 30px;
+  position: absolute;
+  right: 1px;
+  left: 1px;
+  top: 104px;
+}
+.user-dashboard-loans .loan-officer {
+  color: var(--grayscale-gray, #9fa2b4);
+  text-align: left;
+  font-family: var(--bold-14-02-px-font-family, "Mulish-Bold", sans-serif);
+  font-size: var(--bold-14-02-px-font-size, 14px);
+  letter-spacing: var(--bold-14-02-px-letter-spacing, 0.2px);
+  font-weight: var(--bold-14-02-px-font-weight, 700);
+  position: absolute;
+  right: 649px;
+  left: 31px;
+  top: 0px;
+}
+.user-dashboard-loans .amount {
+  color: var(--grayscale-gray, #9fa2b4);
+  text-align: left;
+  font-family: var(--bold-14-02-px-font-family, "Mulish-Bold", sans-serif);
+  font-size: var(--bold-14-02-px-font-size, 14px);
+  letter-spacing: var(--bold-14-02-px-letter-spacing, 0.2px);
+  font-weight: var(--bold-14-02-px-font-weight, 700);
+  position: absolute;
+  right: 401px;
+  top: 0px;
+  width: 208px;
+}
+.user-dashboard-loans .status {
+  color: var(--grayscale-gray, #9fa2b4);
+  text-align: left;
+  font-family: var(--bold-14-02-px-font-family, "Mulish-Bold", sans-serif);
+  font-size: var(--bold-14-02-px-font-size, 14px);
+  letter-spacing: var(--bold-14-02-px-letter-spacing, 0.2px);
+  font-weight: var(--bold-14-02-px-font-weight, 700);
+  position: absolute;
+  right: 71px;
+  top: 0px;
+  width: 104px;
+}
+.user-dashboard-loans .date-applied {
+  color: var(--grayscale-gray, #9fa2b4);
+  text-align: left;
+  font-family: var(--bold-14-02-px-font-family, "Mulish-Bold", sans-serif);
+  font-size: var(--bold-14-02-px-font-size, 14px);
+  letter-spacing: var(--bold-14-02-px-letter-spacing, 0.2px);
+  font-weight: var(--bold-14-02-px-font-weight, 700);
+  position: absolute;
+  right: 221px;
+  top: 0px;
+  width: 140px;
+}
+.user-dashboard-loans .divider-line-horizontal {
+  height: 0px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 30px;
+  overflow: visible;
+}
+.user-dashboard-loans .table-ticket-priority-high {
+  height: 92px;
+  position: absolute;
+  right: 1px;
+  left: 1px;
+  top: 134px;
+}
+.user-dashboard-loans .content {
+  position: absolute;
+  inset: 0;
+}
+.user-dashboard-loans .icon-more-vertical {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 31px;
+  top: calc(50% - 12px);
+  overflow: visible;
+}
+.user-dashboard-loans .chip-priority-high {
+  width: 66px;
+  height: 29.33px;
+  position: absolute;
+  right: 115px;
+  top: calc(50% - 15px);
+  overflow: hidden;
+}
+.user-dashboard-loans .sheet2 {
+  background: #fec400;
+  border-radius: 122.22px;
+  width: 66px;
+  height: 29.33px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.user-dashboard-loans .title {
+  color: var(--grayscale-white, #ffffff);
+  text-align: center;
+  font-family: "Mulish-Bold", sans-serif;
+  font-size: 9.333333969116211px;
+  letter-spacing: 0.53px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  right: 5px;
+  left: 5px;
+  top: calc(50% - 7.41px);
+  height: 14.58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.user-dashboard-loans .chip-priority-high2 {
+  width: 66px;
+  height: 29.33px;
+  position: absolute;
+  right: 115px;
+  top: calc(50% - -170.33px);
+  overflow: hidden;
+}
+.user-dashboard-loans .time-label {
+  color: var(--grayscale-gray-light, #c5c7cd);
+  text-align: left;
+  font-family: var(--reg-12-01-px-font-family, "Mulish-Regular", sans-serif);
+  font-size: var(--reg-12-01-px-font-size, 12px);
+  line-height: var(--reg-12-01-px-line-height, 16px);
+  letter-spacing: var(--reg-12-01-px-letter-spacing, 0.1px);
+  font-weight: var(--reg-12-01-px-font-weight, 400);
+  position: absolute;
+  right: 221px;
+  top: calc(50% - -4px);
+  width: 140px;
+  height: 16px;
+}
+.user-dashboard-loans .date-label {
+  color: var(--grayscale-black, #252733);
+  text-align: left;
+  font-family: var(
+    --semibold-14-02-px-font-family,
+    "Mulish-SemiBold",
+    sans-serif
+  );
+  font-size: var(--semibold-14-02-px-font-size, 14px);
+  line-height: var(--semibold-14-02-px-line-height, 20px);
+  letter-spacing: var(--semibold-14-02-px-letter-spacing, 0.2px);
+  font-weight: var(--semibold-14-02-px-font-weight, 600);
+  position: absolute;
+  right: 221px;
+  top: calc(50% - 20px);
+  width: 140px;
+}
+.user-dashboard-loans .date-customer {
+  color: var(--grayscale-gray-light, #c5c7cd);
+  text-align: left;
+  font-family: var(--reg-12-01-px-font-family, "Mulish-Regular", sans-serif);
+  font-size: var(--reg-12-01-px-font-size, 12px);
+  line-height: var(--reg-12-01-px-line-height, 16px);
+  letter-spacing: var(--reg-12-01-px-letter-spacing, 0.1px);
+  font-weight: var(--reg-12-01-px-font-weight, 400);
+  position: absolute;
+  right: 401px;
+  top: calc(50% - -4px);
+  width: 208px;
+  height: 16px;
+}
+.user-dashboard-loans .customer-name {
+  color: var(--grayscale-black, #252733);
+  text-align: left;
+  font-family: var(
+    --semibold-14-02-px-font-family,
+    "Mulish-SemiBold",
+    sans-serif
+  );
+  font-size: var(--semibold-14-02-px-font-size, 14px);
+  line-height: var(--semibold-14-02-px-line-height, 20px);
+  letter-spacing: var(--semibold-14-02-px-letter-spacing, 0.2px);
+  font-weight: var(--semibold-14-02-px-font-weight, 600);
+  position: absolute;
+  right: 401px;
+  top: calc(50% - 20px);
+  width: 208px;
+}
+.user-dashboard-loans .ticket-information {
+  color: var(--grayscale-gray-light, #c5c7cd);
+  text-align: left;
+  font-family: var(--reg-12-01-px-font-family, "Mulish-Regular", sans-serif);
+  font-size: var(--reg-12-01-px-font-size, 12px);
+  line-height: var(--reg-12-01-px-line-height, 16px);
+  letter-spacing: var(--reg-12-01-px-letter-spacing, 0.1px);
+  font-weight: var(--reg-12-01-px-font-weight, 400);
+  position: absolute;
+  right: 649px;
+  left: 99px;
+  top: calc(50% - -4px);
+  height: 16px;
+}
+.user-dashboard-loans .ticket-name {
+  color: var(--grayscale-black, #252733);
+  text-align: left;
+  font-family: var(
+    --semibold-14-02-px-font-family,
+    "Mulish-SemiBold",
+    sans-serif
+  );
+  font-size: var(--semibold-14-02-px-font-size, 14px);
+  line-height: var(--semibold-14-02-px-line-height, 20px);
+  letter-spacing: var(--semibold-14-02-px-letter-spacing, 0.2px);
+  font-weight: var(--semibold-14-02-px-font-weight, 600);
+  position: absolute;
+  right: 649px;
+  left: 99px;
+  top: calc(50% - 20px);
+}
+.user-dashboard-loans .avatar-man-5 {
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  left: 31px;
+  top: calc(50% - 22px);
+  overflow: visible;
+}
+.user-dashboard-loans .divider-line-horizontal2 {
+  height: 0px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  overflow: visible;
+}
+.user-dashboard-loans .divider-line-horizontal3 {
+  height: 0px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.user-dashboard-loans .chip-priority-high3 {
+  width: 78px;
+  height: 34.67px;
+  position: absolute;
+  right: 103px;
+  top: calc(50% - -161px);
+  overflow: hidden;
+}
+.user-dashboard-loans .sheet3 {
+  background: #cc2929;
+  border-radius: 144.44px;
+  width: 78px;
+  height: 34.67px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.user-dashboard-loans .title2 {
+  color: var(--grayscale-white, #ffffff);
+  text-align: center;
+  font-family: "Mulish-Bold", sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.62px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  right: 5.91px;
+  left: 5.909090995788574px;
+  top: calc(50% - 8.76px);
+  height: 17.23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.user-dashboard-loans .table-ticket-priority-high2 {
+  height: 92px;
+  position: absolute;
+  right: 1px;
+  left: 1px;
+  top: 225px;
+}
+.user-dashboard-loans .icon-more-vertical2 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 31px;
+  top: calc(50% - 12px);
+  overflow: visible;
+}
+.user-dashboard-loans .avatar-man-52 {
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  left: 31px;
+  top: calc(50% - 22px);
+  overflow: visible;
+}
+.user-dashboard-loans .divider-line-horizontal4 {
+  height: 0px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  overflow: visible;
+}
+.user-dashboard-loans .divider-line-horizontal5 {
+  height: 0px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.user-dashboard-loans .chip-priority-high4 {
+  width: 78px;
+  height: 34.67px;
+  position: absolute;
+  right: 103px;
+  top: calc(50% - 18px);
+  overflow: hidden;
+}
+.user-dashboard-loans .sheet4 {
+  background: #29cc97;
+  border-radius: 144.44px;
+  width: 78px;
+  height: 34.67px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.user-dashboard-loans .table-ticket-priority-high3 {
+  height: 92px;
+  position: absolute;
+  right: 1px;
+  left: 1px;
+  top: 318px;
+}
+.user-dashboard-loans .icon-more-vertical3 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 31px;
+  top: calc(50% - 12px);
+  overflow: visible;
+}
+.user-dashboard-loans .avatar-man-53 {
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  left: 31px;
+  top: calc(50% - 22px);
+  overflow: visible;
+}
+.user-dashboard-loans .divider-line-horizontal6 {
+  height: 0px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  overflow: visible;
+}
+.user-dashboard-loans .divider-line-horizontal7 {
+  height: 0px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.user-dashboard-loans .table-ticket-priority-high4 {
+  height: 92px;
+  position: absolute;
+  right: 1px;
+  left: 1px;
+  top: 410px;
+}
+.user-dashboard-loans .icon-more-vertical4 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 31px;
+  top: calc(50% - 12px);
+  overflow: visible;
+}
+.user-dashboard-loans .avatar-man-54 {
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  left: 31px;
+  top: calc(50% - 22px);
+  overflow: visible;
+}
+.user-dashboard-loans .divider-line-horizontal8 {
+  height: 0px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  overflow: visible;
+}
+.user-dashboard-loans .divider-line-horizontal9 {
+  height: 0px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.user-dashboard-loans .sheet5 {
+  background: #1829c7;
+  border-radius: 144.44px;
+  width: 78px;
+  height: 34.67px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
